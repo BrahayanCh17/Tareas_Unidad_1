@@ -1,0 +1,19 @@
+FUNCIONALIDAD PRINCIPAL: Define la función principal de la aplicación y cómo los usuarios interactuarán con ella.
+
+AUTENTICACIÓN Y SEGURIDAD: Establece un sistema de autenticación seguro para proteger los datos y la privacidad de los usuarios.
+
+INTERFAZ DE USUARIO INTUITIVA: Crea una interfaz de usuario fácil de usar y visualmente atractiva para mejorar la experiencia del usuario.
+
+COMPATIBILIDAD CON DISPOSITIVOS: Asegúrate de que la aplicación sea compatible con diferentes dispositivos y tamaños de pantalla.
+
+RENDIMIENTO Y VELOCIDAD: Define los tiempos de carga y rendimiento esperados para garantizar una experiencia fluida.
+
+GESTIÓN DE DATOS: Diseña una base de datos eficiente para almacenar y gestionar la información de la aplicación.
+
+NOTIFICACIONES Y COMUNICACIÓN: Implementa sistemas de notificación y comunicación para mantener a los usuarios informados.
+
+OPTIMIZACIÓN PARA MOTORES DE BÚSQUEDA (SEO): Aplica prácticas de SEO para que la aplicación sea fácilmente encontrada por los motores de búsqueda.
+
+SEGUIMIENTO Y ANALÍTICA: Integra herramientas para recopilar datos sobre el uso de la aplicación y obtener información útil.
+
+ESCALABILIDAD: Diseña la aplicación para que pueda manejar un aumento en la cantidad de usuarios sin degradar el rendimiento.
