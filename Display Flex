@@ -1,0 +1,31 @@
+EL DISPLAY FLEX: Es una propiedad de CSS que se utiliza para controlar el diseño y el posicionamiento de elementos en un contenedor. Aquí tienes una descripción básica de cómo funciona:
+CONTENEDOR FLEX (FLEX CONTAINER): Para utilizar display: flex, primero debes aplicarlo al elemento contenedor que contiene los elementos que deseas organizar en un diseño flexible. Este contenedor se convierte en un "contenedor flex". Por ejemplo:
+css
+Copy code
+.contenedor-flex {
+  display: flex;
+}
+ELEMENTOS FLEX (FLEX ITEMS): Los elementos dentro del contenedor flex se llaman "elementos flex" o "flex items". Estos elementos se organizan automáticamente en una fila (o columna) según la dirección principal, que es horizontal (por defecto) o vertical. Puedes cambiar la dirección principal según tus necesidades.
+html
+Copy code
+<div class="contenedor-flex">
+  <div>Elemento 1</div>
+  <div>Elemento 2</div>
+  <div>Elemento 3</div>
+</div>
+PROPIEDADES FLEX: Puedes usar varias propiedades para controlar cómo se distribuyen los elementos flex dentro del contenedor, como justify-content para alinearlos horizontalmente y align-items para alinearlos verticalmente. También puedes usar flex-direction para cambiar la dirección principal, flex-wrap para controlar el ajuste de elementos en múltiples líneas y flex-grow para controlar el crecimiento de elementos.
+css
+Copy code
+.contenedor-flex {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente los elementos */
+  align-items: center; /* Centra verticalmente los elementos */
+}
+FLEXIBILIDAD: La característica clave de display: flex es la capacidad de los elementos flex para ajustarse automáticamente al espacio disponible en el contenedor. Esto significa que los elementos pueden estirarse o comprimirse según sea necesario para llenar el contenedor de manera eficiente.
+ORDENAMIENTO: Puedes cambiar el orden de los elementos flex utilizando la propiedad order. Un elemento con un valor menor de order se colocará antes que uno con un valor mayor.
+css
+Copy code
+.contenedor-flex div:nth-child(2) {
+  order: 1; /* Cambia el orden del segundo elemento */
+}
+display flex es una poderosa herramienta de diseño en CSS que permite crear diseños flexibles y responsivos alineando y distribuyendo elementos de manera automática y eficiente dentro de un contenedor flex.
